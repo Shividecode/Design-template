@@ -1,0 +1,205 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.myul{
+    margin: 0 50px 0 0;
+}
+
+
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.nav-link{
+    font-size: 18px;
+
+}
+
+.my-logo{
+    width: 50px;
+    height: 35px;
+    
+}
+
+.navbar-brand > .logo-text1{
+    font-size: 25px;
+    color: tomato
+}
+
+.logo-text2{
+   color: darkcyan; 
+   transition: all 0.3 ease;     
+}
+
+  
+.nav-link:hover{
+      color: darkcyan !important; 
+      letter-spacing: 2px;
+      transition: width 2s;     
+  }
+
+  .active .nav-link{
+      color: tomato !important;
+  }
+  
+  .site-title{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+
+  .home-section{
+      background-image: url("images/pexel-1.jpg");
+      background-size: cover;
+      position: relative;
+      top: 0;
+      height: 100vh;
+      bottom: 0;
+      z-index: -10
+  }
+  .wrapper{
+      position: absolute;
+      background-color: rgb(0,0,0,0.5);
+       z-index: -5;
+       height: 100%;
+       width: 100%;
+  }
+      
+  
+  .my-flex-class{
+      margin-right: 10%;
+  }
+  .flex-column{
+      margin-top: 150px;
+  }
+  
+  
+  .site-btn1{
+      
+      margin-left: 24%;
+      color: white;
+      background-color: black !important;
+  }
+  .site-btn2{
+      
+      background-color:white !important;
+      color: white;
+  }
+  .site-btn1, .site-btn2{
+      margin-top: 5%;
+      margin-bottom: 40%;
+  }
+  .card-img-top {
+    width: 100% !important;
+    height: 15vw !important;
+    object-fit: cover !important;
+}
+.section-1 .heading-1{
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+.section-1 .card-text .para-1{
+    color: rgb(0,0,0,0.5);
+}
+.section-1{
+    margin-bottom: 5%;
+
+}
+.section-2 .container-fluid{
+    background-image: url("images/comm.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.section-2 .heading-1{
+    margin-top: -5%;
+    margin-bottom: 4%;
+    color: white;
+    font-family: 'Righteous', cursive;
+    width: 80%;
+}
+.section-2 .btn{
+    margin-bottom: 15%;
+    width: 25%;
+    background-color: tomato !important;
+
+}
+.section-2 .para-1{
+    font-weight: 500;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 7%;
+    
+}
+.com-text{
+    color: tomato;
+
+}
+
+
+.section-3{
+    margin-top: 6%;
+}
+.section-3 .row-second{
+    margin-top: 2%;
+}
+.section-3 i{
+    color: darkcyan;
+}
+
+.section-3 p{
+    color: rgb(0,0,0,0.59);
+}
+
+.section-4{
+    margin-top: 8%;
+
+}
+
+.section-4 .row .col-md-7 ,.col-md-5{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.section-4 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.section-4 a{
+    color: darkcyan;
+    font-size: 40px;
+    text-decoration: none;
+}
+.section-4 .para-1{
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 6%;
+}
+.section-5{
+    margin-top: 5%;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 50px;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.main-foot {
+    margin-top: 5%;
+}
+
+
+p{
+    color: white;
+}
